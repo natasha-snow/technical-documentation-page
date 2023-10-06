@@ -1,0 +1,85 @@
+@media (max-width: 900px) {
+  #main-doc {
+    max-width: 1300px;
+  }
+}
+
+body {
+  font-family: Lato, monospace;
+  line-height: 1.4;
+  background-color: rgba(248, 244, 244, 0.993);
+}
+nav {
+  position: fixed;
+  min-width: 250px;
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 100%;
+  border-right: solid;
+  border-color: grey;
+}
+
+main {
+  position: absolute;
+  margin-left: 300px;
+  padding: 20px;
+  max-width: 900px;
+}
+
+nav header {
+  font-size: 28px;
+  padding: 10px 15px;
+}
+
+nav li {
+  list-style: none;
+  line-height: 1.5;
+  border-top: 1px solid;
+  position: relative;
+  width: 100%;
+}
+
+nav ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 3px 20px;
+  color: black;
+  font-size: 16px;
+}
+
+header {
+  font-size: 28px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+code {
+  background-color: #d0d0d5;
+  display: block;
+  padding: 15px;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 20px;
+}
+
+li {
+  padding: 8px;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+article {
+  margin-left: 17px;
+}
